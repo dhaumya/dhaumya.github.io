@@ -1,0 +1,38 @@
+body{
+  background-image: url(back.jpeg);
+}
+.l-d1{
+  border: ridge 10px red;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  background-color: rgb(228, 255, 254);
+}
+.l-f1{
+  text-align: center;
+}
+.luser{
+  margin: 5px;
+}
+.lpass{
+  margin: 5px;
+}
+.l-h1{
+  color: rgb(53, 237, 249);
+  text-align: center;
+}
+.s-d1{
+  border: ridge 10px red;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  background-color: rgb(228, 255, 254);
+}
+.s-f1{
+  text-align: center;
+}
+.s-h1{
+  color: rgb(53, 237, 249);
+  text-align: center;
+}
+.ca{
+  color: rgb(112, 95, 250);
+}
