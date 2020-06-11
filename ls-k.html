@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login or Signup</title>
+    <link rel="stylesheet" href="ls-k.css">
+  </head>
+  <body>
+    <script type="text/javascript">
+      function lps() {
+        var lp=document.getElementById('lpass');
+        if (lp.type==="password") {
+          lp.type="text"
+        } else {
+          lp.type="password"
+        }
+      };
+      function sh() {
+        var ld=document.getElementById('l-d1');
+        if (ld.style.display==="block") {
+          ld.style.display="none"
+        } else {
+          ld.style.display="block"
+        }
+      };
+    </script>
+    <div class="l-d1" id="l-d1">
+      <form class="l-f1" id="l-f1" action="info-km.html" method="post">
+        <h1 class="l-h1">Login</h1>
+        <label for="luser">Username:</label>
+        <input type="text" name="luser" id="luser" placeholder="Username" required><br>
+        <label for="lpass">Password :</label>
+        <input type="password" name="lpass" id="lpass" placeholder="Password" required><br>
+        <input type="submit" name="lsub" onclick="l-c()" value="Submit"><br>
+        <input type="checkbox" onclick="lps()">Show Password
+      </form>
+      <p onclick="sh()" class="ca">Create an account</p>
+    </div>
+    <div class="s-d1" id="s-d1">
+      <form class="s-f1" id="s-f1" action="info-km.html" method="post">
+        <h1 class="s-h1">Sign up</h1>
+        <label for="suser">Username:</label>
+        <input type="text" name="suser" id="suser" placeholder="Choose Username" required><br>
+        <label for="semail">؜؜؜؜؜؜؜؜؜؜Email:</label>
+        <input type="email" name="semail" id="semail" placeholder="Email" required><br>
+        <label for="spass">Password:</label>
+        <input type="password" name="spass" id="spass" placeholder="Password" required><br>
+        <label for="cspass">Confirm Password:</label>
+        <input type="password" name="cspass" id="cspass" placeholder="Re-enter Password" required><br>
+        <input type="submit" name="ssub" onclick="s-c()" value="Submit">
+      </form>
+      <p onclick="hs()" class="ca">Already have an account</p>
+    </div>
+  </body>
+</html>
