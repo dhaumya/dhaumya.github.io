@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-image: url(MomDad.jpg);
+}
+.h1-1{
+    color: #4bd5ddf5;
+}
+.p-1{
+    text-align: center;
+}
+.button-1{
+    margin: 10px;
+}
+.input-1{
+    text-align: end;
+}
+.help{
+    color: blue;
+}
