@@ -1,0 +1,46 @@
+body{
+  background-color: rgb(0, 42, 47);
+  margin-top: 0px;
+  text-align: center;
+}
+.al1{
+  background-color: rgb(0, 64, 255);
+  color: rgb(255, 255, 255);
+  height: 20px;
+  margin: 0px 0px 10px 0px;
+  border-radius: 0px 0px 10px 10px;
+  padding: 0px 0px 0px 0px;
+}
+.div1{
+  background-color: rgb(255, 255, 255);
+  margin: 0px 0px 10px 0px;
+  border-radius: 20px;
+}
+.info{
+  color: grey;
+  font-size: 12px
+}
+.top-row{
+  display: grid;
+  grid-template-columns: 100px 125px;
+  grid-template-rows: 15px;
+  grid-gap: 300px;
+}
+.damo{
+  font-size: 15px;
+  display: flex;
+  margin: 0px;
+}
+.daon{
+  display: none;
+  margin: 0px;
+}
+.daoff{
+  margin: 0px;
+}
+.div1-da{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin: 0px 0px 10px 0px;
+  border-radius: 20px;
+}
